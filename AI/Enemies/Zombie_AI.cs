@@ -8,6 +8,8 @@ using UnityEngine.AI;
 // to enable the reptile behaviors.
 //If the _isInPack bool is true, there will be a single playerDetection collider for multiple AI that when triggered 
 // will alert all the AI's of the same group.
+//If the _randomPatrol bool is true, the AI will not follow move between random waypoints.
+// (I made this feature to make some AI's of the same waypoint group spread in different point of the stage and not follow always the same path as the others).
 public class Zombie_AI : Main_AI
 {
     public SharedVariables _zombieSharVar;
