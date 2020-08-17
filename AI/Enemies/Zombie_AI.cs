@@ -52,8 +52,9 @@ public class Zombie_AI : Main_AI
 
     [Header("Audio")]
     public AudioClip _zombieDeath    = null;
-    public AudioClip _zombieAudioPIS = null;
     public AudioClip _attackSound    = null;
+     //PlayerInSight.
+    public AudioClip _zombieAudioPIS = null;
 
     private AudioSource _zombieAudioSource;
 
