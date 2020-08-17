@@ -7,7 +7,7 @@ using UnityEngine.AI;
 //the second is a stronger version of the Zombie ("Reptile") the _isReptile box need to be checked in the Editor
 // to enable the reptile behaviors.
 //If the _isInPack bool is true, there will be a single playerDetection collider for multiple AI that when triggered 
-// will attack the player in group.
+// will alert all the AI's of the same group.
 public class Zombie_AI : Main_AI
 {
     public SharedVariables _zombieSharVar;
