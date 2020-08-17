@@ -38,9 +38,9 @@ public class Zombie_AI : Main_AI
     
 
     [Header("Attack")]
-    [SerializeField] private float _zombieHealthPoints = 100f;
-    [SerializeField] string        _attackParamenterR  = "";
-    [SerializeField] string        _attackParamenterL  = "";
+    [SerializeField] private float  _zombieHealthPoints = 100f;
+    [SerializeField] private string _attackParamenterR  = "";
+    [SerializeField] private string _attackParamenterL  = "";
 
      private int _attackHashR = -1;
      private int _attackHashL = -1;
